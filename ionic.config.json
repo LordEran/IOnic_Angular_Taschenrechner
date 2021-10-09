@@ -1,0 +1,7 @@
+{
+  "name": "IOnic_Angular_Schriftlich_Rechnen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

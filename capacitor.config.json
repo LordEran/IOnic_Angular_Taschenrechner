@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "IOnic_Angular_Schriftlich_Rechnen",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
