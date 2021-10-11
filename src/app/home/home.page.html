@@ -8,11 +8,13 @@
 
 <ion-content [fullscreen]="true">
     <div id="container">
-        <ion-item class="ion-text-end">
-            <ion-label class="value">
-                {{value}}
-            </ion-label>
-        </ion-item>
+        <div class="valueField">
+            <ion-item class="ion-text-end">
+                <ion-label class="value">
+                    {{value}}
+                </ion-label>
+            </ion-item>
+        </div>
         <div *ngFor="let numG of numberGroups">
             <ion-button *ngFor="let num of numG" (click)="onButtonPress(num)" class="clacButton">{{num}}</ion-button>
         </div>
